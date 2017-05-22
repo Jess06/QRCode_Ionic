@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      QR Scanner
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-header color="primary" style="text-align:center">
+      Ecanear un contacto
+    </ion-card-header>
+    <ion-card-content>
+      Usa la cámara de tu teléfono para escanear el código QR de un contacto.
+      Para apreciar mejor la información, todos los campos del contacto deben
+      de estar llenos.
+      Generar el código QR en la siguiente página:
+
+      https://www.the-qrcode-generator.com/
+    </ion-card-content>
+  </ion-card>
+  <br>
+  <button ion-button block (click)="doScan()">Iniciar</button>
+</ion-content>
